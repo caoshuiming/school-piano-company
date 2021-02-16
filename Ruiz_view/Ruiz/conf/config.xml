@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<mysql>
+		<driver><![CDATA[com.mysql.jdbc.Driver]]></driver>
+		<url><![CDATA[jdbc:mysql://localhost:3306/midproject?useUnicode=true&characterEncoding=UTF-8&serverTimezone=PRC]]></url>
+		<username><![CDATA[root]]></username>
+		<password><![CDATA[]]></password>
+		<!-- C3P0的配置 -->
+		<minPoolSize>5</minPoolSize>
+		<maxPoolSize>10</maxPoolSize>
+		<acquireIncrement>5</acquireIncrement>
+		<initialPoolSize>5</initialPoolSize>
+		<maxIdleTime>240</maxIdleTime>
+	</mysql>
+
+	<common>
+		<encoding>UTF-8</encoding>
+	<!-- 页大小 -->
+		<pageSize>15</pageSize>
+		<per>12</per>
+	</common>
+
+	<!--邮箱正则表达式-->
+	<regex>
+		<email>^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$</email>
+	</regex>
+</Config>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+	<mysql>
+		<driver><![CDATA[com.mysql.jdbc.Driver]]></driver>
+		<url><![CDATA[jdbc:mysql://localhost:3306/t_sql?characterEncoding=utf8&serverTimezone=PRC]]></url>
+		<username><![CDATA[root]]></username>
+		<password><![CDATA[]]></password>
+		<!-- C3P0的配置 -->
+		<minPoolSize>5</minPoolSize>
+		<maxPoolSize>10</maxPoolSize>
+		<acquireIncrement>5</acquireIncrement>
+		<initialPoolSize>5</initialPoolSize>
+		<maxIdleTime>240</maxIdleTime>
+	</mysql>
+
+	<common>
+		<!-- 页大小 -->
+		<pageSize>10</pageSize>
+	</common>
+</Config>

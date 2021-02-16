@@ -1,0 +1,1204 @@
+2020-12-26 17:15:17 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2020-12-26 17:15:17 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xiry2q31l0u|1bd38a10,name=1hge4v4ae17xiry2q31l0u|1bd38a10 registered.
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xiry2q31l0u|1bd38a10,name=1hge4v4ae17xiry2q31l0u|1bd38a10 unregistered, in order to be reregistered after update.
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xiry2q31l0u|1bd38a10,name=1hge4v4ae17xiry2q31l0u|1bd38a10 registered.
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xiry2q31l0u|1bd38a10,name=1hge4v4ae17xiry2q31l0u|1bd38a10 unregistered, in order to be reregistered after update.
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xiry2q31l0u|1bd38a10,name=MySQLC3p0DataSource registered.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:15:17 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2020-12-26 17:15:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'mi******'.
+2020-12-26 17:15:17 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2020-12-26 17:15:17 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2020-12-26 17:19:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Sat Dec 26 17:19:17 CST 2020 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:19:17 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:19:17 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Sat Dec 26 17:20:17 CST 2020 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719 ---> idle_time: 243577; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3 ---> idle_time: 243599; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20 ---> idle_time: 299681; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926 ---> idle_time: 299690; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085 ---> idle_time: 299705; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@21523719
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5e2c6e20
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@5a8186b3
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926
+2020-12-26 17:20:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@287da926
+2020-12-26 17:20:17 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085
+2020-12-26 17:20:18 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e4be085
+2020-12-26 17:21:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Sat Dec 26 17:21:17 CST 2020 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:21:17 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:21:17 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:22:17 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Sat Dec 26 17:22:17 CST 2020 [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:22:17 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:22:17 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@33d7f29b]
+2020-12-26 17:23:35 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2020-12-26 17:23:35 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:23:35 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xtga0r2fe4w|33793ef,name=1hge4v4ae17xtga0r2fe4w|33793ef registered.
+2020-12-26 17:23:35 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xtga0r2fe4w|33793ef,name=1hge4v4ae17xtga0r2fe4w|33793ef unregistered, in order to be reregistered after update.
+2020-12-26 17:23:35 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xtga0r2fe4w|33793ef,name=1hge4v4ae17xtga0r2fe4w|33793ef registered.
+2020-12-26 17:23:35 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xtga0r2fe4w|33793ef,name=1hge4v4ae17xtga0r2fe4w|33793ef unregistered, in order to be reregistered after update.
+2020-12-26 17:23:35 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xtga0r2fe4w|33793ef,name=MySQLC3p0DataSource registered.
+2020-12-26 17:23:36 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:23:36 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:23:36 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:23:36 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:23:36 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@219c5599 config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2020-12-26 17:23:36 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'mi******'.
+2020-12-26 17:23:36 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2020-12-26 17:23:36 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2020-12-26 17:25:18 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2020-12-26 17:25:18 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xvnb2hvit5h|58d8a8fa,name=1hge4v4ae17xvnb2hvit5h|58d8a8fa registered.
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xvnb2hvit5h|58d8a8fa,name=1hge4v4ae17xvnb2hvit5h|58d8a8fa unregistered, in order to be reregistered after update.
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xvnb2hvit5h|58d8a8fa,name=1hge4v4ae17xvnb2hvit5h|58d8a8fa registered.
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xvnb2hvit5h|58d8a8fa,name=1hge4v4ae17xvnb2hvit5h|58d8a8fa unregistered, in order to be reregistered after update.
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4v4ae17xvnb2hvit5h|58d8a8fa,name=MySQLC3p0DataSource registered.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2020-12-26 17:25:18 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@70ab160b config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2020-12-26 17:25:18 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'mi******'.
+2020-12-26 17:25:18 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2020-12-26 17:25:18 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-01-11 20:53:29 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2021-01-11 20:53:29 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 20:53:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1v0d0nrco3hlh|5d5ff,name=1hge4ulae1v0d0nrco3hlh|5d5ff registered.
+2021-01-11 20:53:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1v0d0nrco3hlh|5d5ff,name=1hge4ulae1v0d0nrco3hlh|5d5ff unregistered, in order to be reregistered after update.
+2021-01-11 20:53:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1v0d0nrco3hlh|5d5ff,name=1hge4ulae1v0d0nrco3hlh|5d5ff registered.
+2021-01-11 20:53:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1v0d0nrco3hlh|5d5ff,name=1hge4ulae1v0d0nrco3hlh|5d5ff unregistered, in order to be reregistered after update.
+2021-01-11 20:53:29 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1v0d0nrco3hlh|5d5ff,name=MySQLC3p0DataSource registered.
+2021-01-11 20:53:30 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 20:53:30 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 20:53:30 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 20:53:30 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 20:53:30 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@18b4339 config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2021-01-11 20:53:30 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'ro******'.
+2021-01-11 20:53:30 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2021-01-11 20:53:30 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-01-11 23:42:16 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlae1v6e29u1vbgkdg|162e7c0,name=1hgfdvlae1v6e29u1vbgkdg|162e7c0 registered.
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlae1v6e29u1vbgkdg|162e7c0,name=1hgfdvlae1v6e29u1vbgkdg|162e7c0 unregistered, in order to be reregistered after update.
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlae1v6e29u1vbgkdg|162e7c0,name=1hgfdvlae1v6e29u1vbgkdg|162e7c0 registered.
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlae1v6e29u1vbgkdg|162e7c0,name=1hgfdvlae1v6e29u1vbgkdg|162e7c0 unregistered, in order to be reregistered after update.
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlae1v6e29u1vbgkdg|162e7c0,name=MySQLC3p0DataSource registered.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-11 23:42:16 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6 config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2021-01-11 23:42:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'ro******'.
+2021-01-11 23:42:16 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2021-01-11 23:42:16 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-01-11 23:46:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:46:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:46:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:46:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:47:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2 ---> idle_time: 285959; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8 ---> idle_time: 288271; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a ---> idle_time: 299656; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66 ---> idle_time: 299668; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3 ---> idle_time: 299668; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6dffb8
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12be3f2
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@181ca8a
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66
+2021-01-11 23:47:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b22d66
+2021-01-11 23:47:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bb71f3
+2021-01-11 23:48:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:48:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:48:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:48:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:49:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:49:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:49:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:49:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:50:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:50:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:50:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:50:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:51:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:51:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:51:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:51:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:52:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46 ---> idle_time: 282442; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751 ---> idle_time: 299958; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e66e46
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513 ---> idle_time: 299963; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee ---> idle_time: 299970; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1be5751
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42 ---> idle_time: 299983; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@22e513
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9385ee
+2021-01-11 23:52:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42
+2021-01-11 23:52:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@16c3a42
+2021-01-11 23:53:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:53:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:53:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:53:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:54:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:54:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:54:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:54:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:55:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:55:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:55:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:55:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:56:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:56:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:56:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:56:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:57:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee ---> idle_time: 299961; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab ---> idle_time: 299963; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5 ---> idle_time: 299972; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13276ee
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737 ---> idle_time: 299977; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7a5ab
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39 ---> idle_time: 299983; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7285f5
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1846737
+2021-01-11 23:57:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39
+2021-01-11 23:57:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@edde39
+2021-01-11 23:58:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:58:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:58:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:58:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:59:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Mon Jan 11 23:59:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:59:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-11 23:59:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:00:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:00:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:00:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:00:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:01:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:01:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:01:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:01:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:02:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7 ---> idle_time: 299962; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd ---> idle_time: 299962; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10eafe7
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c ---> idle_time: 299964; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@87d2fd
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c
+2021-01-12 00:02:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c
+2021-01-12 00:02:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fe0d4c
+2021-01-12 00:03:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:03:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:03:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:03:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:04:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f ---> idle_time: 253435; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f
+2021-01-12 00:04:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:04:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f
+2021-01-12 00:04:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1c3a41f
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:05:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b ---> idle_time: 294869; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b
+2021-01-12 00:05:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:05:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b
+2021-01-12 00:05:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@64cc6b
+2021-01-12 00:06:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:06:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:06:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:06:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:07:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8 ---> idle_time: 299980; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92 ---> idle_time: 299981; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9372a8
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561 ---> idle_time: 299983; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1533a92
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:07:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561
+2021-01-12 00:07:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@bfe561
+2021-01-12 00:08:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:08:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:08:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:08:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:09:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7 ---> idle_time: 240048; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7
+2021-01-12 00:09:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5 ---> idle_time: 300050; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@141efd7
+2021-01-12 00:09:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:09:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5
+2021-01-12 00:09:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af82b5
+2021-01-12 00:10:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:10:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:10:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:10:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:11:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:11:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:11:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:11:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:12:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74 ---> idle_time: 299978; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@664625 ---> idle_time: 299984; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@664625 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@664625
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@664625
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d08e74
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53 ---> idle_time: 299986; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@664625
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@664625
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:12:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53
+2021-01-12 00:12:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1862a53
+2021-01-12 00:13:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:13:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:13:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:13:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:14:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7 ---> idle_time: 299939; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7
+2021-01-12 00:14:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3 ---> idle_time: 299939; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3
+2021-01-12 00:14:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7
+2021-01-12 00:14:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@17425c7
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:14:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3
+2021-01-12 00:14:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@13565f3
+2021-01-12 00:15:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:15:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:15:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:15:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:16:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:16:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:16:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:16:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:17:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8 ---> idle_time: 299981; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8
+2021-01-12 00:17:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f ---> idle_time: 299982; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f
+2021-01-12 00:17:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:17:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1b8f0c8
+2021-01-12 00:17:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f
+2021-01-12 00:17:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@692c5f
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:18:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1 ---> idle_time: 256111; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1
+2021-01-12 00:18:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:18:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1
+2021-01-12 00:18:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@14bbdb1
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:19:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa ---> idle_time: 299990; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa
+2021-01-12 00:19:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d ---> idle_time: 299991; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@9d1ffa
+2021-01-12 00:19:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:19:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d
+2021-01-12 00:19:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@18ab91d
+2021-01-12 00:20:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:20:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:20:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:20:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:21:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:21:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:21:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:21:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:22:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20 ---> idle_time: 299987; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20
+2021-01-12 00:22:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c ---> idle_time: 299988; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c
+2021-01-12 00:22:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20
+2021-01-12 00:22:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c26e20
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:22:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c
+2021-01-12 00:22:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@6be78c
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:23:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@983518 ---> idle_time: 299989; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@983518 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@983518
+2021-01-12 00:23:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@983518
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:23:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@983518
+2021-01-12 00:23:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@983518
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:24:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864 ---> idle_time: 299980; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864
+2021-01-12 00:24:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864
+2021-01-12 00:24:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6 ---> idle_time: 299982; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@19c0864
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6
+2021-01-12 00:24:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:24:16 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6
+2021-01-12 00:24:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140dbb6
+2021-01-12 00:25:16 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 00:25:16 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:25:16 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 00:25:16 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@1beb0d6]
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb18tl184lqg0|13f066a,name=1hge4ulae1wb18tl184lqg0|13f066a registered.
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb18tl184lqg0|13f066a,name=1hge4ulae1wb18tl184lqg0|13f066a unregistered, in order to be reregistered after update.
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb18tl184lqg0|13f066a,name=1hge4ulae1wb18tl184lqg0|13f066a registered.
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb18tl184lqg0|13f066a,name=1hge4ulae1wb18tl184lqg0|13f066a unregistered, in order to be reregistered after update.
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb18tl184lqg0|13f066a,name=MySQLC3p0DataSource registered.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:02 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@1d038c8 config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2021-01-12 18:40:02 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'ro******'.
+2021-01-12 18:40:02 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2021-01-12 18:40:02 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-01-12 18:40:06 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:06 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:06 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:07 [com.mchange.v2.sql.SqlUtils] - Converting Throwable to SQLException...
+com.mchange.v2.resourcepool.TimeoutException: A client timed out while waiting to acquire a resource from com.mchange.v2.resourcepool.BasicResourcePool@1d038c8 -- timeout at awaitAvailable()
+	at com.mchange.v2.resourcepool.BasicResourcePool.awaitAvailable(BasicResourcePool.java:1505)
+	at com.mchange.v2.resourcepool.BasicResourcePool.prelimCheckoutResource(BasicResourcePool.java:644)
+	at com.mchange.v2.resourcepool.BasicResourcePool.checkoutResource(BasicResourcePool.java:554)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutAndMarkConnectionInUse(C3P0PooledConnectionPool.java:758)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool.checkoutPooledConnection(C3P0PooledConnectionPool.java:685)
+	at com.mchange.v2.c3p0.impl.AbstractPoolBackedDataSource.getConnection(AbstractPoolBackedDataSource.java:140)
+	at com.db.C3p0ConnectionFactory.getConnection(C3p0ConnectionFactory.java:45)
+	at com.dao.GoodsDao.selectAll(GoodsDao.java:315)
+	at com.service.GoodsService.getAll(GoodsService.java:94)
+	at com.listener.SystemListener.contextInitialized(SystemListener.java:48)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4853)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5314)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:753)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:729)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:717)
+	at org.apache.catalina.startup.HostConfig.manageApp(HostConfig.java:1696)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:484)
+	at org.apache.catalina.mbeans.MBeanFactory.createStandardContext(MBeanFactory.java:433)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at com.sun.jmx.remote.security.MBeanServerAccessController.invoke(MBeanServerAccessController.java:468)
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1468)
+	at javax.management.remote.rmi.RMIConnectionImpl.access$300(RMIConnectionImpl.java:76)
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1309)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1408)
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:829)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:357)
+	at sun.rmi.transport.Transport$1.run(Transport.java:200)
+	at sun.rmi.transport.Transport$1.run(Transport.java:197)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196)
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:573)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:834)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:688)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:687)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2021-01-12 18:40:10 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:10 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:11 [com.mchange.v2.resourcepool.BasicResourcePool] - An exception occurred while acquiring a poolable resource. Will retry.
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2103)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:718)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at com.mchange.v2.c3p0.DriverManagerDataSource.getConnection(DriverManagerDataSource.java:175)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:220)
+	at com.mchange.v2.c3p0.WrapperConnectionPoolDataSource.getPooledConnection(WrapperConnectionPoolDataSource.java:206)
+	at com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool$1PooledConnectionResourcePoolManager.acquireResource(C3P0PooledConnectionPool.java:203)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquire(BasicResourcePool.java:1176)
+	at com.mchange.v2.resourcepool.BasicResourcePool.doAcquireAndDecrementPendingAcquiresWithinLockOnSuccess(BasicResourcePool.java:1163)
+	at com.mchange.v2.resourcepool.BasicResourcePool.access$700(BasicResourcePool.java:44)
+	at com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask.run(BasicResourcePool.java:1908)
+	at com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:696)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at java.net.Socket.connect(Socket.java:538)
+	at java.net.Socket.<init>(Socket.java:434)
+	at java.net.Socket.<init>(Socket.java:244)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:280)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2026)
+	... 18 common frames omitted
+2021-01-12 18:40:53 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2021-01-12 18:40:53 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb2ccd1uc9jic|16c335f,name=1hge4ulae1wb2ccd1uc9jic|16c335f registered.
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb2ccd1uc9jic|16c335f,name=1hge4ulae1wb2ccd1uc9jic|16c335f unregistered, in order to be reregistered after update.
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb2ccd1uc9jic|16c335f,name=1hge4ulae1wb2ccd1uc9jic|16c335f registered.
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb2ccd1uc9jic|16c335f,name=1hge4ulae1wb2ccd1uc9jic|16c335f unregistered, in order to be reregistered after update.
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hge4ulae1wb2ccd1uc9jic|16c335f,name=MySQLC3p0DataSource registered.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-01-12 18:40:53 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@143f3cd config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2021-01-12 18:40:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'ro******'.
+2021-01-12 18:40:53 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2021-01-12 18:40:53 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-01-12 18:44:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 18:44:53 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:44:53 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:44:53 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Jan 12 18:45:53 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9 ---> idle_time: 299739; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c ---> idle_time: 299753; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442 ---> idle_time: 299755; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442 [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@143f3cd]
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@d94ed9
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c
+2021-01-12 18:45:53 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1eaff5c
+2021-01-12 18:45:53 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1820442
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.log.MLog] - Reading VM config for path list /com/mchange/v2/log/default-mchange-log.properties, /mchange-commons.properties, /c3p0.properties, hocon:/reference,/application,/c3p0,/, /mchange-log.properties, /
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.log.MLog] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.log.MLog] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlaf1bblfpr16tlpvy|dc7163,name=1hgfdvlaf1bblfpr16tlpvy|dc7163 registered.
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlaf1bblfpr16tlpvy|dc7163,name=1hgfdvlaf1bblfpr16tlpvy|dc7163 unregistered, in order to be reregistered after update.
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlaf1bblfpr16tlpvy|dc7163,name=1hgfdvlaf1bblfpr16tlpvy|dc7163 registered.
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlaf1bblfpr16tlpvy|dc7163,name=1hgfdvlaf1bblfpr16tlpvy|dc7163 unregistered, in order to be reregistered after update.
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.management.DynamicPooledDataSourceManagerMBean] - MBean: com.mchange.v2.c3p0:type=PooledDataSource,identityToken=1hgfdvlaf1bblfpr16tlpvy|dc7163,name=MySQLC3p0DataSource registered.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-commons.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/mchange-log.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier '/c3p0.properties' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.cfg.MConfig] - The configuration file for resource identifier 'hocon:/reference,/application,/c3p0,/' could not be found. Skipping.
+2021-02-16 19:15:22 [com.mchange.v2.resourcepool.BasicResourcePool] - com.mchange.v2.resourcepool.BasicResourcePool@15048d config: [start -> 5; min -> 5; max -> 10; inc -> 50; num_acq_attempts -> 30; acq_attempt_delay -> 1000; check_idle_resources_delay -> 0; max_resource_age -> 0; max_idle_time -> 240000; excess_max_idle_time -> 0; destroy_unreturned_resc_time -> 0; expiration_enforcement_delay -> 60000; break_on_acquisition_failure -> false; debug_store_checkout_exceptions -> false; force_synchronous_checkins -> false]
+2021-02-16 19:15:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPoolManager] - Created new pool for auth, username (masked): 'ro******'.
+2021-02-16 19:15:22 [com.mchange.v2.resourcepool.BasicResourcePool] - acquire test -- pool size: 0; target_pool_size: 5; desired target? 1
+2021-02-16 19:15:22 [com.mchange.v2.resourcepool.BasicResourcePool] - awaitAvailable(): [unknown]
+2021-02-16 19:19:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:19:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:19:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:19:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:20:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9 ---> idle_time: 291659; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d ---> idle_time: 299688; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2 ---> idle_time: 299692; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933 ---> idle_time: 299701; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9 ---> idle_time: 299706; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@8a59d2
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@12ba4d
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@e810a9
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933
+2021-02-16 19:20:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1cdc933
+2021-02-16 19:20:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1ee17b9
+2021-02-16 19:21:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:21:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:21:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:21:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:22:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:22:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:22:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:22:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:23:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:23:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:23:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:23:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:24:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:24:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:24:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:24:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:25:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b ---> idle_time: 299963; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7 ---> idle_time: 299965; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1682c5b
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97 ---> idle_time: 299975; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516 ---> idle_time: 299980; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1420bb7
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1516c97
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8 ---> idle_time: 299986; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1692516
+2021-02-16 19:25:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8
+2021-02-16 19:25:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10debe8
+2021-02-16 19:26:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:26:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:26:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:26:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:27:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:27:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:27:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:27:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:28:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:28:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:28:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:28:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:29:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:29:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:29:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:29:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:30:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6 ---> idle_time: 299964; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d ---> idle_time: 299966; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1fed4e6
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f ---> idle_time: 299977; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3cfe7d
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e ---> idle_time: 299987; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f47b4f
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926 ---> idle_time: 300008; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1bc417e
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:30:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926
+2021-02-16 19:30:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@3d5926
+2021-02-16 19:31:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:31:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:31:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:31:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:32:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:32:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:32:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:32:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:33:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:33:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:33:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:33:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:34:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:34:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:34:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:34:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:35:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c ---> idle_time: 299943; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c ---> idle_time: 299944; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbc39c
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@7f6d4c
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4 ---> idle_time: 299996; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830 ---> idle_time: 299997; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb ---> idle_time: 300002; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1f80d4
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@4a1830
+2021-02-16 19:35:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb
+2021-02-16 19:35:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@10356bb
+2021-02-16 19:36:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:36:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:36:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:36:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:37:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:37:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:37:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:37:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:38:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:38:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:38:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:38:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:39:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:39:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:39:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:39:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:40:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1 ---> idle_time: 267398; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d ---> idle_time: 267404; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@cbebf1
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22 ---> idle_time: 299906; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1af4a0d
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13 ---> idle_time: 299917; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@f3da22
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590 ---> idle_time: 299940; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@b8ba13
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:40:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590
+2021-02-16 19:40:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@140f590
+2021-02-16 19:41:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:41:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:41:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:41:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:42:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:42:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:42:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:42:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:43:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:43:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:43:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:43:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:44:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:44:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:44:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:44:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:45:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e ---> idle_time: 299926; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767 ---> idle_time: 299928; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1148b6e
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@332214 ---> idle_time: 299944; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@332214 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@332214
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@1338767
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@332214
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f ---> idle_time: 299956; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@332214
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@332214
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - EXPIRED idle resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8 ---> idle_time: 299969; max_idle_time: 240000 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Removing expired resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Preparing to destroy resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Preparing to destroy PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@71147f
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:45:22 [com.mchange.v2.c3p0.impl.C3P0PooledConnectionPool] - Successfully destroyed PooledConnection: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8
+2021-02-16 19:45:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Successfully destroyed resource: com.mchange.v2.c3p0.impl.NewPooledConnection@c71af8
+2021-02-16 19:46:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:46:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:46:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:46:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:47:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:47:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:47:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:47:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:48:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:48:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:48:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:48:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:49:22 [com.mchange.v2.resourcepool.BasicResourcePool] - Checking for expired resources - Tue Feb 16 19:49:22 CST 2021 [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:49:22 [com.mchange.v2.resourcepool.BasicResourcePool] - BEGIN check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
+2021-02-16 19:49:22 [com.mchange.v2.resourcepool.BasicResourcePool] - FINISHED check for expired resources.  [com.mchange.v2.resourcepool.BasicResourcePool@15048d]
